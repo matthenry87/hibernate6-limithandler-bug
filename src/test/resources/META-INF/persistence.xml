@@ -13,7 +13,7 @@
         <properties>
             <property name="hibernate.archive.autodetection" value="class, hbm"/>
 
-            <property name="hibernate.dialect" value="org.hibernate.dialect.DB2Dialect"/>
+            <property name="hibernate.dialect" value="org.hibernate.bugs.CustomDb2Dialect"/>
             <property name="hibernate.connection.driver_class" value="com.ibm.db2.jcc.DB2Driver"/>
             <property name="hibernate.connection.url" value="jdbc:db2://localhost:50000/testdb"/>
             <property name="hibernate.connection.username" value="db2inst1"/>
